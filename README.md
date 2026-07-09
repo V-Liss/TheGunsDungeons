@@ -2,7 +2,7 @@ The Guns Dungeons, a 8-bit stylized rogueelike descendant of The Guns. Now with 
 
 Funny, I discovered the name "sub-step division matrix" after I actually made all those three games lol
 
-(and still not sure it's called that way, fewl free to correct me)
+(and still not sure it's called that way, feel free to correct me)
 
 ========================================================================
 
