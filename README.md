@@ -14,6 +14,16 @@ ALL DONE IN BARE C++ EXCEPT DISPLAYING SPRITES AND MANAGING WINDOWS. SFML WAS US
 
 ========================================================================
 
+TO MAINTAIN ABSOLUTE TRANSPARENCY REGARDING THIS PROJECT'S AUTHENTICITY, THE SOURCE CODE REMAINS EXACTLY AS IT WAS ORIGINALLY WRITTEN:
+
+- ORGANIC STRUCTURAL GROWTH: THE ENTIRE PROJECT IS CONTAINED WITHIN A SINGLE FILE. THE FIRST HALF HANDLES COMPLEX ITEM INITIALIZATION. THE SECOND HALF CONTAINS THE CORE GAME LOGIC ALONG WITH LEGACY CODE BLOCKS INTENTIONALLY RETAINED DURING DEVELOPMENT. VARIABLE NAMING CONVENTIONS VARY, DIRECTLY REFLECTING A SELF-TAUGHT, ORGANIC, EXPERIMENTAL DEVELOPMENT PROCESS.
+
+- LOCAL VERSION CONTROL PROOF: BEFORE ADOPTING STANDARD GIT PRACTICES, MY VERSION CONTROL CONSISTED OF MANUALLY SAVING DISTINCT ITERATIONS INTO SEPARATE LOCAL FOLDERS. GITHUB ACTS STRICTLY AS THE STORAGE AND PUBLISHING DESTINATION FOR THIS COMPLETED FINAL MILESTONE.
+
+- THE VISUAL PROOF: CHECK main.cpp FOR PROOF OF THE AUTHENTICITY. THE LAYOUT, ARCHITECTURE, AND RAW STRUCTURAL EVOLUTION SERVE AS A DIRECT, UNEDITED DIGITAL FINGERPRINT PROVING AUTHENTIC, MANUAL HUMAN DEVELOPMENT.
+
+========================================================================
+
 THE GUNS DUNGEONS (in addition to The Guns mechanics):
 
 - PROCEDURAL GENERATION: a stage is not a map, but rather an array of how many templates of a certain type (e.g. shop, easy room, hard room, etc.) should be in it. When generating a stage, the algorithm picks a room type, picks a random template of this type, and attaches it to a random previously generated room (while checking if it overlaps the existing rooms). All rooms have doors if they connect with other rooms, and the lowest-right room has a door down, taking you to the next stage (triggers when the player touches the specific atoms placed at the border)
